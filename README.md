@@ -1,5 +1,4 @@
 ![GitHub release (python version)](https://img.shields.io/badge/python-3.9-informational)
-![GitHub release (app size)](https://img.shields.io/github/repo-size/RomCodeman/telegram_quiz_to_googlesheet)
 # Telegram bot Questionnaire 
 
 ### Table of contents
