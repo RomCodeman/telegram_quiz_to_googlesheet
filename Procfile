@@ -1,0 +1,1 @@
+web: gunicorn telegram_quiz_to_googlesheet.wsgi
