@@ -11,7 +11,12 @@
 
 ### Description
 Very simple implementation of the telegram bot for clients polling and writing their answers to the Google Sheet's tables.
-And in the near future to the PostgreSQL and Mongo DB's.
+And in the near future to the PostgreSQL and Mongo DB's. 
+
+For local launch, it also save this data to the SQLite DB file (database records can be viewed in the admin panel).
+
+I tried to follow the 'State pattern', when creating this Bot.
+
 
 At this moment, polling mode launch, via CLI command, is more preferable: 
 > ./manage.py bot_start
@@ -37,6 +42,12 @@ log.
 
 <p align="center">
   <img src="/static/unused_sheet_notifying.png?raw=true" alt="Unused sheet notification"/>
+</p>
+
+If local launch used, all saved data can be viewed through admin panel.
+
+<p align="center">
+  <img src="/static/admin_panel.png?raw=true" alt="Admin panel records"/>
 </p>
 
 ### Project structure
